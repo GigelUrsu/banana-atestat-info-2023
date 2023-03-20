@@ -1,0 +1,8 @@
+const bananasTypes = {
+    SET_BANANAS:"SET_BANANAS",
+    ADD_BANANAS_ITEM:"ADD_BANANAS_ITEM",
+    REMOVE_BANANAS_ITEM:"REMOVE_BANANAS_ITEM",
+    RESET_BANANAS_ARRAY:"RESET_BANANAS_ARRAY"
+}
+
+export default bananasTypes;
