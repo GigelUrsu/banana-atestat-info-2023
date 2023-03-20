@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77dd91b2.css",
+    "main.js": "/static/js/main.0156417f.js",
+    "static/js/787.884e199e.chunk.js": "/static/js/787.884e199e.chunk.js",
+    "static/media/darkChocolateBackground.png": "/static/media/darkChocolateBackground.fe3adfbd21f238e6b90a.png",
+    "static/media/backgroundLeaf.png": "/static/media/backgroundLeaf.ce59190d9442c64d2e25.png",
+    "static/media/bananaInHand.png": "/static/media/bananaInHand.0e9e7f3251cbdab93ed5.png",
+    "static/media/horizontalBananas.png": "/static/media/horizontalBananas.7ad30c1a2aca24e62502.png",
+    "static/media/whiteChocolateBackground.png": "/static/media/whiteChocolateBackground.dce53eb8b22e002daa38.png",
+    "static/media/bananasOnTable.png": "/static/media/bananasOnTable.877695d68c352dda887b.png",
+    "static/media/darkChocolate.png": "/static/media/darkChocolate.a9c84c09a1beaad0fb73.png",
+    "static/media/bananaPlate.png": "/static/media/bananaPlate.32454470b3b435d91061.png",
+    "static/media/bananaChips.png": "/static/media/bananaChips.246dc52804d9a111e55f.png",
+    "static/media/bomboaneCiocolataNeagra.png": "/static/media/bomboaneCiocolataNeagra.616c8162a4504d1d4635.png",
+    "static/media/bomboaneMulticolore.png": "/static/media/bomboaneMulticolore.a65ba262942f4956dd6a.png",
+    "static/media/Untitled1.png": "/static/media/Untitled1.77db639188e8bdd7f00b.png",
+    "static/media/Untitled3.png": "/static/media/Untitled3.46eb503687ec994c8111.png",
+    "static/media/bananaLogo.png": "/static/media/bananaLogo.9fc401ee1ba9ae6d6d6b.png",
+    "static/media/Untitled2.png": "/static/media/Untitled2.cbf8bf6a26f115cc7576.png",
+    "static/media/fullLogo.png": "/static/media/fullLogo.6b1e67a77073752d5a57.png",
+    "static/media/bananaTransparent.png": "/static/media/bananaTransparent.5e00f9871b96a07fcb4f.png",
+    "static/media/foodtruck.png": "/static/media/foodtruck.85536a737ef8fb025a0d.png",
+    "static/media/customBananas.png": "/static/media/customBananas.80261dbbea343fa76c2f.png",
+    "static/media/oreo.png": "/static/media/oreo.c8817e17ffca598250b4.png",
+    "static/media/bananaTopVertical.png": "/static/media/bananaTopVertical.7fbb331e0a653a29c542.png",
+    "static/media/nuci.png": "/static/media/nuci.8e28aa9087e2b77ac4d9.png",
+    "static/media/twix.png": "/static/media/twix.7cc3746766105f078776.png",
+    "static/media/whiteChocolate.png": "/static/media/whiteChocolate.92b99341874a63b6cac8.png",
+    "index.html": "/index.html",
+    "main.77dd91b2.css.map": "/static/css/main.77dd91b2.css.map",
+    "main.0156417f.js.map": "/static/js/main.0156417f.js.map",
+    "787.884e199e.chunk.js.map": "/static/js/787.884e199e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77dd91b2.css",
+    "static/js/main.0156417f.js"
+  ]
+}

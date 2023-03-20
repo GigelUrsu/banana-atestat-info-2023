@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.bananaPageProducts .header .flex .right{
+    display: flex;
+}
+.bananaPageProducts .header .flex .meniu{
+    display:none;
+}
+.bananaPageProducts .header .flex .menuHeader{
+    display: flex;
+    padding: 4vh;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+}
+.bananaPageProducts .body .titleProduct{
+    text-align: center;
+    margin: 0;
+}
+.bananaPageProducts .body .grid{
+    place-items: center;
+    text-align: center;
+    padding:5vh 5vw 10vh 5vw;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(25vw, 1fr) );
+    grid-gap:10vh 5vw;
+}
+.bananaPageProducts .body .grid .product{
+    width: 50%;
+    background-color: white;
+    padding: 5% 5%;
+    border-radius: 16px;
+    font-size: 1.1em;
+    min-width: 250px;
+}
+.bananaPageProducts .body .grid .product .title{
+    font-size: 1.3em;
+}
+.bananaPageProducts .body img{
+    max-height: 80%;
+}
+.bananaPageProducts .body .product{
+    background-color: transparent;
+    perspective: 1000px;
+    width: 100%;
+    height: 50vh;
+}
+.bananaPageProducts .body .product .productInner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.bananaPageProducts .body .product .productInner .productInnerFront .title{
+    overflow: hidden;
+}
+.bananaPageProducts .body .product:hover .productInner{
+    transform: rotateY(180deg);
+}
+.bananaPageProducts .body .product .productInner .productInnerFront, .bananaPageProducts .body .product .productInner .productInnerBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}  
+.bananaPageProducts .body .product .productInner .productInnerBack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+}
+
+.bananaPageProducts .body .flexRL{
+    display:flex;
+    margin: 5vh 5vw;
+    flex-wrap:wrap;
+    gap:5%;
+    overflow: hidden;
+}
+.bananaPageProducts .body .flexRL{
+    font-size: 1.2rem;
+}
+.bananaPageProducts .body .darkChocolate .flexRL{
+    color: white;
+}
+.bananaPageProducts .body .flexRL .text{
+    margin-bottom:5vh;
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-width:35vw;
+    flex-direction: column;
+}
+.bananaPageProducts .body .flexRL .images{
+    display:flex;
+    margin-bottom:5vh;
+    justify-content: center;
+    flex:1;
+    flex-wrap: wrap;
+}
+.bananaPageProducts .body .flexRL .images .mainImg{
+    background-color:white;
+    height:max-content;
+    width:40vh;
+    border-radius:50%;
+    overflow:hidden;
+    padding:1%;
+    text-align:center;
+}
+.bananaPageProducts .body .flexRL .images .mainImg .mImage{
+    height:40vh;
+}
+.bananaPageProducts .body .flexRL .images .secondaryImg .imgDiv{
+    background-color:white;
+    height:max-content;
+    width:15vh;
+    border-radius:50%;
+    overflow:hidden;
+    padding:1%;
+    text-align:center;
+}
+.bananaPageProducts .body .flexRL .images .secondaryImg .imgDiv .image{
+    height:15vh;
+}
+
+.bananaPageProducts .body .titleProduct{
+    font-family: 'Kaushan Script';
+    font-size: 4rem;
+}
+.bananaPageProducts .body .product:hover{
+    transform: scale(1.05);
+    transition-duration: .4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+@media (max-width:1200px) {
+    .bananaPageProducts .body .flexRL{
+        margin: 5vh 2vw;
+        gap: 2%;
+    }
+}
+@media (max-width: 1000px) {
+    .bananaPageProducts .body .grid{
+        grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+        /* padding:10vh 5vw; */
+        /* grid-gap: 10vh 5vw; */
+    }
+    .bananaPageProducts .header .flex .meniu{
+        display:unset;
+    }
+    .bananaPageProducts .header .flex .right{
+        display: none;
+    }
+    .bananaPageProducts .header .flex .leftImg{
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .bananaPageProducts .body .flexRL .images{
+        flex-wrap: wrap;
+        /* overflow: scroll; */
+        color: unset;
+    } 
+}
+
+@media (max-width: 400px) {
+    .bananaPageProducts .body .flexRL .images .mainImg{
+        width:32vh;
+    }
+    .bananaPageProducts .body .flexRL .images .mainImg .mImage{
+        height:32vh;
+    }
+    .bananaPageProducts .body .flexRL .images .secondaryImg .imgDiv{
+        width:17vh;
+    }
+    .bananaPageProducts .body .flexRL .images .secondaryImg .imgDiv .image{
+        height:17vh;
+    }
+}
