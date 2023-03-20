@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap');
+
+.bananaPage .header .flex .right{
+    display: flex;
+}
+.bananaPage .header .flex .menuHeader{
+    display: flex;
+    padding: 4vh;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+}
+.bananaPage .header .flex .meniu{
+    display:none;
+}
+
+.bananaPage .body .top{
+    font-family: 'Kaushan Script';
+}
+.bananaPage .body .top .flex{
+    font-size: 2em;
+}
+
+@media (max-width: 900px) {
+    .bananaPage .body .top .flex{
+        font-size: 1.5em;
+    }
+    .bananaPage .header .flex .meniu{
+        display:unset;
+    }
+    .bananaPage .header .flex .right{
+        display: none;
+    }
+    .bananaPage .header .flex .leftImg{
+        display: none;
+    }
+}
+@media (max-width: 300px) {
+    .bananaPage .body .top .flex{
+        font-size: 1.2em;
+    }
+}

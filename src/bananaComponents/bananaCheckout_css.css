@@ -1,0 +1,26 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.bananaCheckout .header .flex .right{
+    display: flex;
+}
+.bananaCheckout .header .flex .menuHeader{
+    display: flex;
+    padding: 4vh;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+}
+.bananaCheckout .header .flex .meniu{
+    display:none;
+}
+
+@media (max-width: 900px) {
+    .bananaCheckout .header .flex .meniu{
+        display:unset;
+    }
+    .bananaCheckout .header .flex .right{
+        display: none;
+    }
+    .bananaCheckout .header .flex .leftImg{
+        display: none;
+    }
+}

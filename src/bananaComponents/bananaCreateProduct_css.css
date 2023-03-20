@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+ 
+.bananaCreateProduct .header .flex .right{
+    display: flex;
+}
+.bananaCreateProduct .header .flex .meniu{
+    display:none;
+}
+.bananaCreateProduct .header .flex .menuHeader{
+    display: flex;
+    padding: 4vh;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+}
+.bananaCreateProduct .body .shapePick .flex{
+    flex-wrap:wrap;
+    border-radius:30px;
+    display:flex;
+    margin:2% 5%;
+    justify-content:center;
+    overflow:hidden;
+    background-color:#e55b7e;
+}
+/* .bananaCreateProduct .body .shapePick .flex .text */
+
+/* .bananaCreateProduct .body .candyPick .candyCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f6f5f0;
+}
+
+.bananaCreateProduct .body .topingPick .topingCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f6f5f0;
+} */
+
+@media (max-width: 900px) {
+    .bananaCreateProduct .header .flex .meniu{
+        display:unset;
+    }
+    .bananaCreateProduct .header .flex .right{
+        display: none;
+    }
+    .bananaCreateProduct .header .flex .leftImg{
+        display: none;
+    }
+}
